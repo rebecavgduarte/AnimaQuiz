@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+  <title>AnimaQuiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loading" class="loading">
+    <div class="loading-box">
+      <img
+        src="images/capivara.png"
+        alt="loading image"
+      >
+      <h1>AnimaQuiz</h1>
+      <p>Carregando perguntas sobre animais...</p>
+      <div class="bar">
+        <div id="bar-fill" class="bar-fill"></div>
+      </div>
+      <p id="loading-text">0%</p>
+    </div>
+  </div>
+
+  <div id="app" class="app hidden">
+    <header>
+      <h1>Quiz de Animais</h1>
+      <p>Responda as perguntas e veja sua pontuação final.</p>
+    </header>
+
+    <div class="box">
+      <label for="nome">Nome do jogador:</label>
+      <input type="text" id="nome" placeholder="Digite seu nome">
+
+      <label for="busca">Buscar por categoria:</label>
+      <input type="text" id="busca" placeholder="Ex.: aves, mamíferos, marinho">
+
+      <p id="mensagem-nome">Digite seu nome para começar.</p>
+      <p id="mensagem-filtro">Todas as perguntas estão aparecendo.</p>
+    </div>
+
+    <div class="box">
+      <div id="quiz"></div>
+    </div>
+
+    <div class="box">
+      <button id="reiniciar">Reiniciar Quiz</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
