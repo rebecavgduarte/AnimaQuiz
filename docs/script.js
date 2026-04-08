@@ -3,7 +3,7 @@ var perguntas = [
   {
     id: 1,
     categoria: "Mamíferos",
-    pergunta: "Qual animal é conhecido por ser o rei da floresta ?",
+    pergunta: "Qual animal é conhecido por ser o rei da floresta?",
     opcoes: ["Leão", "Hipopótamo", "Zebra", "Girafa"],
     resposta: "Leão"
   },
@@ -25,16 +25,16 @@ var perguntas = [
   {
     id: 4,
     categoria: "Insetos",
-    pergunta: "Qual inseto se transforma em uma lagarta ?",
-    opcoes: ["Formiga", "Borboleta", "Mosca", "Abelha"],
-    resposta: "Borboleta"
+    pergunta: "Qual inseto se transforma em uma Borboleta?",
+    opcoes: ["Formiga", "Lagarta", "Mosca", "Abelha"],
+    resposta: "Lagarta"
   },
   {
     id: 5,
     categoria: "Répteis",
     pergunta: "Qual destes animais é um réptil?",
-    opcoes: ["Tartaruga", "Morcego", "Pinguim", "Sapo"],
-    resposta: "Tartaruga"
+    opcoes: ["Jacaré", "Morcego", "Pinguim", "Sapo"],
+    resposta: "Jacaré"
   },
   {
     id: 6,
@@ -45,10 +45,10 @@ var perguntas = [
   },
   {
     id: 7,
-    categoria: "Répteis",
-    pergunta: "Qual destes animais é um réptil?",
-    opcoes: ["Tartaruga", "Morcego", "Pinguim", "Sapo"],
-    resposta: "Tartaruga"
+    categoria: "Aves",
+    pergunta: "Qual ave pode imitar a voz humana?",
+    opcoes: ["Beija-flor", "Corvo", "Piriquito", "Galinha"],
+    resposta: "Corvo"
   },
    {
     id: 8,
@@ -62,14 +62,9 @@ var perguntas = [
     id: 9,
     categoria: "Marinhos",
     pergunta: "Qual é a maior espécie de tubarão?",
-    opcoes: ["Tubarão martelo", "Tubarão branco", "Tubarão Baleia", "Tubarão tigreS"],
-    resposta: "Tubarão Baleia"
+    opcoes: ["Tubarão martelo", "Tubarão branco", "Tubarão baleia", "Tubarão tigre"],
+    resposta: "Tubarão baleia"
   },
-
-
-
-
-
 ];
 
 var loading = document.getElementById("loading");
